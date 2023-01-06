@@ -1,0 +1,36 @@
+.selectableCard {
+  display: block;
+  cursor: pointer;
+}
+
+.appHeader {
+  background: var(--salt-container-secondary-background);
+  font-size: var(--salt-text-fontSize);
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+
+  --appHeader-padding: calc(var(--salt-size-unit) * 3);
+
+  background: var(--salt-container-primary-background);
+  border-bottom: var(--salt-container-borderStyle) var(--salt-size-border)
+    var(--salt-container-primary-borderColor);
+  box-shadow: var(--salt-overlayable-shadow-borderRegion);
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  height: var(--appHeader-height);
+  overflow: hidden;
+  padding: 0 var(--appHeader-padding) 0 var(--appHeader-padding);
+
+  display: flex;
+  height: calc(var(--salt-size-base) + var(--salt-size-unit) * 2);
+  line-height: normal;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.logo {
+  height: 100%;
+}
